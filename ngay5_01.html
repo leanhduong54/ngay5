@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>bai tap 2</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact{
+    float: left;
+    width: 30%;
+}
+.form_contact{
+    float: right;
+    width: 70%;
+    margin-top: 50px;
+}
+.line{
+    width: 60px;
+    background-color: yellow;
+    height: 3px;
+}
+.contact h4{
+    margin: 25px 0px;
+    padding: 0;
+}
+.contact ul{
+    margin-left: 35px;
+}
+.contact ul li{
+    padding: 10px 0px;
+    color: rgb(red, green, blue);
+}
+.text_contact{
+    margin-bottom: 25px;
+}
+.form_contact form input{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 7px 5px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 3px;
+}
+.form_contact form textarea{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 3px 5px;
+    border: 1px solid rgb(red, green, blue);
+    border-radius: 3px;
+}
+.form_contact form button{
+    background-color: aqua;
+    border: none;
+    padding: 7px 12px;
+    color: white;
+}
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="contact">
+            <h2>CONTACT US</h2>
+           <div class="line"></div>
+           <h4>Contact Info</h4>
+          <ul>
+              <li>da nang quang nam</li>
+              <li>danang@gamil.com</li>
+              <li>+81 0950 8888</li>
+    
+            </ul>
+            
+        </div>
+        <div class="form_contact">
+            
+            <h4 class="text_contact">Having Any query! Or Book an  appointment</h4>
+            <form action="">
+                <input type="lastname" name="lastname" id="lastname" placeholder="Your Name" >
+                <input type="email" name="email" id="email" placeholder="Your Email" >
+                <input type="subject" name="subject" id="subject" placeholder="subject">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button type="submit">Send Message</button>
+
+            </form>
+           
+        </div>
+
+    </div>
+    
+</body>
+</html>
